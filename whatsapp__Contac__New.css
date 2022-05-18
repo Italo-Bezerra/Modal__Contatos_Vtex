@@ -1,0 +1,809 @@
+body{
+    font-family: sans-serif;
+  }
+  
+  .base{
+    width: 350px;
+    height: 500px;
+    background-color: #dfa599;
+    margin: auto;
+    padding-top: 100px ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  #base2{
+    background-color: #f8f8f8;
+    position:relative;
+    top:13px;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 5 5 5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 5 5 5px rgba(0,0,0,0.6);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .logo_linge5{
+    position: relative;
+    left: 113px;
+    top: -70px;
+  }
+  .part1{
+    font-size: 16px;
+    color:black;
+    position: relative;
+    left: 20px;
+    top: -50px;
+  }
+  .part2{
+    font-size: 16px;
+    color:black;
+    position: relative;
+    left: 40px;
+    top: -40px;
+  }
+  #cidade{
+    position: relative;
+    top: -20px;
+    left: 28px;
+    width: 290px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .showroom{
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    background-color: white;
+    left: 25px;
+    top: 10px;
+    border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .name{
+    color:#604334;
+    position: absolute;
+    left: 90px;
+    top: 17px;
+    font-size: 18px;
+  }
+  .address{
+    color:#604334;
+    position: absolute;
+    left: 90px;
+    top: 45px;
+    font-size: 14px;
+  
+  }
+  .logo_loja{
+    border-radius: 80px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .botao{
+    background-color: #24d366;
+    width: 240px;
+    height: 30px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .whatsapp{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 95px;
+    left: 135px;
+  }
+  .img-wha{
+    position: absolute;
+    top: 95px;
+    left: 105px;
+  }
+  
+  .aldeota{
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    background-color: white;
+    left: 25px;
+    top: 160px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .name_2{
+    color:#604334;
+    position: absolute;
+    left: 90px;
+    top: 17px;
+    font-size: 18px;
+  }
+  .address_2{
+    color:#604334;
+    position: absolute;
+    left: 90px;
+    top: 45px;
+    font-size: 14px;
+  
+  }
+  .logo_loja_2{
+    border-radius: 80px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .botao_2{
+    background-color: #24d366;
+    width: 240px;
+    height: 30px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .whatsapp_2{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 95px;
+    left: 135px;
+  }
+  .img-wha_2{
+    position: absolute;
+    top: 95px;
+    left: 105px;
+  }
+  
+  .rio_mar_for{
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    background-color: white;
+    left: 25px;
+    top: 310px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .name_3{
+    color:#604334;
+    position: absolute;
+    left: 90px;
+    top: 17px;
+    font-size: 18px;
+  }
+  .address_3{
+    color:#604334;
+    position: absolute;
+    left: 90px;
+    top: 45px;
+    font-size: 14px;
+  
+  }
+  .logo_loja_3{
+    border-radius: 80px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .botao_3{
+    background-color: #24d366;
+    width: 240px;
+    height: 30px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .whatsapp_3{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 95px;
+    left: 135px;
+  }
+  .img-wha_3{
+    position: absolute;
+    top: 95px;
+    left: 105px;
+  }
+  
+  .rio_mar_recife{
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    background-color: white;
+    left: 25px;
+    top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .name_4{
+    color:#604334;
+    position: absolute;
+    left: 90px;
+    top: 17px;
+    font-size: 18px;
+  }
+  .address_4{
+    color:#604334;
+    position: absolute;
+    left: 90px;
+    top: 45px;
+    font-size: 14px;
+  }
+  .logo_loja_4{
+    border-radius: 80px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .botao_4{
+    background-color: #24d366;
+    width: 240px;
+    height: 30px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .whatsapp_4{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 95px;
+    left: 135px;
+  }
+  .img-wha_4{
+    position: absolute;
+    top: 95px;
+    left: 105px;
+  }
+  
+  .suporte_ecommerce{
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    background-color: white;
+    left: 25px;
+    top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .name_5{
+    color:#604334;
+    position: absolute;
+    left: 90px;
+    top: 17px;
+    font-size: 18px;
+  }
+  .address_5{
+    color:#604334;
+    position: absolute;
+    left: 90px;
+    top: 45px;
+    font-size: 14px;
+  
+  }
+  .logo_loja_5{
+    border-radius: 80px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .botao_5{
+    background-color: #24d366;
+    width: 240px;
+    height: 30px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .whatsapp_5{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 95px;
+    left: 135px;
+  }
+  .img-wha_5{
+    position: absolute;
+    top: 95px;
+    left: 105px;
+  }
+  .espaco{
+    position: absolute;
+    width: 300px;
+    height: 10px;
+    background-color: white;
+    left: 15px;
+    top: 450px;
+    border-radius: 10px;
+  }
+  .pary1{
+    font-size:18px;
+    position: absolute;
+    top: 155px;
+    left: 75px;
+  }
+  .pary2{
+    font-size:18px;
+    position: absolute;
+    top: 175px;
+    left: 95px;
+  }
+  .seleciona_img{
+    position: absolute;
+    top: 60px;
+    left: 129px;
+  }
+  
+  @media (width:280px){
+  
+  .base{
+    width:260px;
+    height: 450px;
+  }
+  #base2{
+      width:260px;
+      top: -27px;
+  }
+  .logo_linge5{
+       left: 70px;
+       top: -85px;
+  }
+  .part1{
+    font-size:12px;
+    left: 12px;
+    top: -78px;
+  }
+  .part2{
+    font-size:12px;
+    left: 25px;
+    top: -68px;
+  }
+  #cidade{
+    top:-50px;
+    left: 09px;
+    width:240px;
+  }
+  .seleciona_img{
+    left: 90px;
+  }
+  .pary1{
+    left: 30px;
+  }
+  .pary2{
+    left: 50px;
+  }
+   
+  .showroom{
+    width:232px;
+    left:10px;
+  }
+  .aldeota{
+    width:232px;
+    left:10px;
+  }
+  .rio_mar_for{
+   width:232px; 
+   left:10px;
+  }
+  .rio_mar_recife{
+    width:232px;
+    left:14px;
+  }
+  .suporte_ecommerce{
+    width:232px;
+    left:14px;
+  }
+  
+    .name{
+    font-size: 17px;
+  }
+   .name_2{
+    font-size: 17px;
+  }
+   .name_3{
+    font-size: 17px;
+  }
+   .name_4{
+    font-size: 17px;
+  }
+   .name_5{
+    font-size: 17px;
+  }
+  
+  .address{
+   font-size: 12px; 
+  }
+  .address_2{
+   font-size: 11px; 
+  }
+  .address_3{
+   font-size: 12px; 
+  }
+  .address_4{
+   font-size: 12px; 
+  }
+  .address_5{
+   top: 65px;
+   font-size: 12px; 
+  }
+  
+  .botao{
+    left:5px;
+    width:220px;
+  }
+  .botao_2{
+    left:5px;
+    width:220px;
+  }
+  .botao_3{
+    left:5px;
+    width:220px;
+  }
+  .botao_4{
+    left:5px;
+    width:220px;
+  }
+  .botao_5{
+    left:5px;
+    width:220px;
+  }
+  
+  .whatsapp{
+    left:100px;
+  }
+  .whatsapp_2{
+    left:100px;
+  }
+  .whatsapp_3{
+    left:100px;
+  }
+  .whatsapp_4{
+    left:100px;
+  }
+  .whatsapp_5{
+    left:100px;
+  }
+  
+  .img-wha{
+    left:70px;
+  }
+  .img-wha_2{
+    left:70px;
+  }
+  .img-wha_3{
+    left:70px;
+  }
+  .img-wha_4{
+    left:70px;
+  }
+  .img-wha_5{
+    left:70px;
+  }
+  
+  }
+  
+  @media (width:320px){
+  
+  .base{
+    width:275px;
+  }
+  #base2{
+      width:275px;
+      top:21px;
+  }
+  .logo_linge5{
+       left: 75px;
+  }
+  .part1{
+    font-size:13px;
+    left: 10px;
+    top: -50px;
+  }
+  .part2{
+    font-size:13px;
+    left: 23px;
+    top: -30px;
+  }
+  #cidade{
+    width:250px;
+    top:-5px;
+    left: 10px;
+  }
+  
+  .seleciona_img{
+    left: 95px;
+  }
+  .pary1{
+    left: 40px;
+  }
+  .pary2{
+    left: 58px;
+  }
+   
+  .showroom{
+    width:252px;
+    left:8px;
+  }
+  .aldeota{
+    width:252px;
+    left:8px;
+  }
+  .rio_mar_for{
+   width:252px; 
+   left:8px;
+  }
+  .rio_mar_recife{
+    width:259px;
+    left:8px;
+  }
+  .suporte_ecommerce{
+    width:259px;
+    left:8px;
+  }
+  
+    .name{
+    font-size: 18px;
+  }
+   .name_2{
+    font-size: 18px;
+  }
+   .name_3{
+    font-size: 18px;
+  }
+   .name_4{
+    font-size: 18px;
+  }
+   .name_5{
+    font-size: 18px;
+  }
+  
+  .address{
+   font-size: 13px; 
+  }
+  .address_2{
+   font-size: 11px; 
+  }
+  .address_3{
+   font-size: 13px; 
+  }
+  .address_4{
+   font-size: 13px; 
+  }
+  .address_5{
+   top: 65px;
+   font-size: 13px; 
+  }
+  
+  .botao{
+    left:5px;
+    width:240px;
+  }
+  .botao_2{
+    left:5px;
+    width:240px;
+  }
+  .botao_3{
+    left:5px;
+    width:240px;
+  }
+  .botao_4{
+    left:10px;
+    width:240px;
+  }
+  .botao_5{
+    left:10px;
+    width:240px;
+  }
+  
+  .whatsapp{
+    left:100px;
+  }
+  .whatsapp_2{
+    left:100px;
+  }
+  .whatsapp_3{
+    left:100px;
+  }
+  .whatsapp_4{
+    left:100px;
+  }
+  .whatsapp_5{
+    left:100px;
+  }
+  
+  .img-wha{
+    left:70px;
+  }
+  .img-wha_2{
+    left:70px;
+  }
+  .img-wha_3{
+    left:70px;
+  }
+  .img-wha_4{
+    left:70px;
+  }
+  .img-wha_5{
+    left:70px;
+  }
+  }
+  
+  @media (width:360px){
+  .base{
+    width:290px;
+  }
+  #base2{
+    width:290px;
+    top:17px;
+  }
+  .logo_linge5{
+       left: 85px;
+  }
+  .part1{
+    left: 10px;
+    font-size:14px;
+  
+  }
+  .part2{
+    left: 28px;
+    font-size:14px;
+  
+  }
+  #cidade{
+    left: 18px;
+    width:250px;
+  }
+  .seleciona_img{
+    left: 105px;
+  }
+  .pary1{
+    left: 50px;
+  }
+  .pary2{
+    left: 68px;
+  }
+   
+  .showroom{
+    width:252px;
+    left:18px;
+  }
+  .aldeota{
+    width:252px;
+    left:18px;
+  }
+  .rio_mar_for{
+   width:252px; 
+   left:18px;
+  }
+  .rio_mar_recife{
+    width:259px;
+    left:18px;
+  }
+  .suporte_ecommerce{
+    width:259px;
+    left:18px;
+  }
+  
+    .name{
+    font-size: 18px;
+  }
+   .name_2{
+    font-size: 18px;
+  }
+   .name_3{
+    font-size: 18px;
+  }
+   .name_4{
+    font-size: 18px;
+  }
+   .name_5{
+    font-size: 18px;
+  }
+  
+  .address{
+   font-size: 13px; 
+  }
+  .address_2{
+   font-size: 11px; 
+  }
+  .address_3{
+   font-size: 13px; 
+  }
+  .address_4{
+   font-size: 13px; 
+  }
+  .address_5{
+   top: 65px;
+   font-size: 13px; 
+  }
+  
+  .botao{
+    left:5px;
+    width:240px;
+  }
+  .botao_2{
+    left:5px;
+    width:240px;
+  }
+  .botao_3{
+    left:5px;
+    width:240px;
+  }
+  .botao_4{
+    left:10px;
+    width:240px;
+  }
+  .botao_5{
+    left:10px;
+    width:240px;
+  }
+  
+  .whatsapp{
+    left:100px;
+  }
+  .whatsapp_2{
+    left:100px;
+  }
+  .whatsapp_3{
+    left:100px;
+  }
+  .whatsapp_4{
+    left:100px;
+  }
+  .whatsapp_5{
+    left:100px;
+  }
+  
+  .img-wha{
+    left:70px;
+  }
+  .img-wha_2{
+    left:70px;
+  }
+  .img-wha_3{
+    left:70px;
+  }
+  .img-wha_4{
+    left:70px;
+  }
+  .img-wha_5{
+    left:70px;
+  }
+  }
+  
+  
